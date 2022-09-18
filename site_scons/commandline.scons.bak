@@ -71,7 +71,7 @@ vars.AddVariables(
     BoolVariable(
         "DEBUG_TOOLS",
         help="Enable debug tools to be built",
-        default=True,
+        default=False,
     ),
 )
 
