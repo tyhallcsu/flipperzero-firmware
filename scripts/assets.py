@@ -3,12 +3,7 @@
 from flipper.app import App
 from flipper.assets.icon import file2image
 
-import logging
-import argparse
-import subprocess
-import io
 import os
-import sys
 
 ICONS_SUPPORTED_FORMATS = ["png"]
 

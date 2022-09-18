@@ -9,9 +9,10 @@
 import os
 import subprocess
 
+DefaultEnvironment(tools=[])
+
 EnsurePythonVersion(3, 8)
 
-DefaultEnvironment(tools=[])
 # Progress(["OwO\r", "owo\r", "uwu\r", "owo\r"], interval=15)
 
 
@@ -264,7 +265,6 @@ firmware_env.Append(
         "site_scons",
         "scripts",
         # Extra files
-        "applications/extapps.scons",
         "SConstruct",
         "firmware.scons",
         "fbt_options.py",

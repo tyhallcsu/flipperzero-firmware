@@ -1,0 +1,8 @@
+App(
+    appid="extapps",
+    name="Extra applications for main menu not offered in the Offical",
+    apptype=FlipperAppType.METAPACKAGE,
+    provides=[
+		"wifi_marauder_companion",
+    ],
+)

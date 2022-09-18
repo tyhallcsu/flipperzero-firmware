@@ -4,7 +4,6 @@
 
 Applications for factory testing the Flipper.
 
-- `about`               - Small About application that shows flipper info
 - `accessor`            - Wiegand server 
 - `battery_test_app`    - Battery debug app
 - `blink_test`          - LED blinker   
